@@ -1,4 +1,7 @@
 # Sample-Server-Side
+![Screen-01](http://s8.picofile.com/file/8305557142/screen_011.png)
+![Screen-02](http://s9.picofile.com/file/8305557068/screen_022.png)   
+ 
 Get Data From Server Using Volley , Gson , Glide , Butterknife , php , pdo , mysql
 
   * Demo  
