@@ -7,12 +7,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context="mir.amirparsa.server_side.MainActivity">
+    tools:context="mir.amirparsa.server_side.activity.MainActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rcvMain"
+        android:id="@+id/rcvMusics"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -24,7 +31,7 @@
         android:layout_marginEnd="16dp"
         android:clickable="true"
         android:src="@drawable/ic_download_24dp"
-        android:tint="@color/gray800"
+        android:tint="@color/gray100"
         app:fabSize="normal"/>
 
 </RelativeLayout>
