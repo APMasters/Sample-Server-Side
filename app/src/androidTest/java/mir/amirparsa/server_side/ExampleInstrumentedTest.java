@@ -1,4 +1,4 @@
-package mir.amirparsa.SampleVollide;
+package mir.amirparsa.server_side;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
